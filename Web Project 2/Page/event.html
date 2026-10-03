@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Casting | Christian Wijaya</title>
+    <link rel="stylesheet" href="/CSS/event.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Christian Wijaya</h1>
+                <p>Timeless Elegance, Modern Sophistication</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="event.html" class="active">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Model Casting Call</h1>
+                <p>Join the Christian Wijaya family for our upcoming fashion showcase</p>
+            </div>
+        </section>
+
+        <section class="event-details">
+            <div class="container">
+                <div class="event-info">
+                    <h2>Spring/Summer 2024 Collection Showcase</h2>
+                    <p class="event-date">March 15, 2024 | New York Fashion Week</p>
+                    <p>Christian Wijaya is seeking fresh faces to represent our brand at the upcoming New York Fashion Week. We're looking for models who embody our brand's ethos of timeless elegance and modern sophistication.</p>
+                    <p>Selected models will have the opportunity to walk in our flagship show and participate in our global campaign shoot.</p>
+                </div>
+
+                <div class="registration-form">
+                    <h2>Registration Form</h2>
+                    <form id="modelRegistration">
+                        <div class="form-group">
+                            <label for="fullName">Full Name*</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="birthDate">Date of Birth*</label>
+                            <input type="date" id="birthDate" name="birthDate" required>
+                            <span class="error-message" id="birthDateError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Gender*</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="gender" value="female" required> Female</label>
+                                <label><input type="radio" name="gender" value="male"> Male</label>
+                            </div>
+                            <span class="error-message" id="genderError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Modeling Experience</label>
+                            <select id="experience" name="experience">
+                                <option value="none">No experience</option>
+                                <option value="beginner">Beginner (1-2 shows)</option>
+                                <option value="intermediate">Intermediate (3-5 shows)</option>
+                                <option value="professional">Professional (5+ shows)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="portfolio">Portfolio Link</label>
+                            <input type="url" id="portfolio" name="portfolio" placeholder="https://">
+                            <span class="error-message" id="portfolioError"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <div>
+                                <input type="checkbox" id="terms" name="terms" required>
+                               <label for="terms"> I agree to the <a href="#">terms and conditions</a>*</label>
+                            </div>
+                            <span class="error-message" id="termsError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comments">Additional Information</label>
+                            <textarea id="comments" name="comments" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn submit-btn">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>Christian Wijaya</h3>
+                <p>Timeless Elegance, Modern Sophistication</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>contact@christianwijaya.com</p>
+                <p>+62-8123-4567-890</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Christian Wijaya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/JS/main.js"></script>
+    <script src="/JS/event.js"></script>
+</body>
+</html>

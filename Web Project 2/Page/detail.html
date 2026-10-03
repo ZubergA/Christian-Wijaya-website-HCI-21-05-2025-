@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail | Christian Wijaya</title>
+    <link rel="stylesheet" href="/CSS/detail.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+</head>
+<!-- header copas index -->
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Christian Wijaya</h1>
+                <p>Timeless Elegance, Modern Sophistication</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> &gt; <a href="product.html">Products</a> &gt; <span id="productNameBreadcrumb">Product Detail</span>
+                </div>
+
+                <!-- untuk produk -->
+                <div class="product-detail-container">
+                    <div class="product-images">
+                        <div class="main-image">
+                            <img id="mainProductImage" src="" alt="Product Image">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img class="thumbnail" src="" alt="Thumbnail 1">
+                            <img class="thumbnail" src="" alt="Thumbnail 2">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h1 id="productName">Product Name</h1>
+                        <p class="price" id="productPrice"></p>
+                        <div class="product-description">
+                            <p id="productDescription"></p>
+                            <ul id="productFeatures">
+                        </div>
+
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                            </div>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                            <button class="btn order-now">Order Now</button>
+                        </div>
+
+                        <div class="product-meta">
+                            <p><strong>Category:</strong> <span id="productCategory">Apparel</span></p>
+                            <p><strong>Availability:</strong> <span id="productAvailability">In Stock</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- footer copas dri index -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>Christian Wijaya</h3>
+                <p>Timeless Elegance, Modern Sophistication</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>contact@christianwijaya.com</p>
+                <p>+62-8123-4567-890</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Christian Wijaya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/JS/main.js"></script>
+    <script src="/JS/detail.js"></script>
+</body>
+</html>
